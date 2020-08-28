@@ -1,0 +1,182 @@
+/*=================
+-Imports
+======================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*=================
+-Estilos Generales.
+======================*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+}
+body {
+    background-image: url(../images/bg-body.png);
+}
+/*=================
+-Container .
+======================*/
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/*=================
+-Header.
+======================*/
+header.main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    border-radius: 50%;
+    margin: 15px 0 30px 0;
+}
+nav .main-nav {
+    text-transform: uppercase;
+}
+nav.main-nav ul{
+    padding: 0;
+}
+nav.main-nav ul li {
+    display: inline-block;
+    margin-right:  20px;
+}
+nav.main-nav ul li:last-child{
+    margin-right: 0;
+}
+nav.main-nav ul li a {
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    background-color: #555;
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.25s ease-in-out;
+}
+nav.main-nav ul li a:hover{
+    transform: translateY(-7px);}
+
+/*=================
+-Seccion banner
+======================*/
+.banner {
+    margin-bottom: 20px;
+}
+.banner img {
+    width: 100%;
+}
+
+/*=================
+-Seccion Productos.
+======================*/
+section.vip-products{
+    overflow: hidden;
+}
+section.vip-products article {
+    width: 32.2%;
+    position: relative;
+    margin-right: 1.7%;
+    margin-bottom: 30px;
+    float: left;
+}
+section.vip-products article:nth-child(3n){
+    margin-right: 0;
+}
+section.vip-products article .photo-container {
+    position: relative;
+}
+section.vip-products article .photo {
+    width: 100%;
+}
+section.vip-products article .special {
+    position: absolute;
+    top:o;
+    right: 13px;
+}
+section.vip-products article .zoom {
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: absolute;
+    padding: 9px;
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    top:50%;
+}
+section.vip-products article h2 {
+    margin: 10px 0;
+}
+section.vip-products article p {
+    margin-bottom: 20px;
+}
+section.vip-products article .more {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+/*=================
+-Media.
+======================*/
+@media (max-width:940px){
+    section.vip-products {
+        padding: 0 20px;
+    }
+    section .vip-products article {
+        width: 49%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    section .vip-products article:nth-child(even){
+        margin-right: 0;
+    }
+    section .vip-products article:nth-child(odd){
+        margin-right: 2%;
+    }
+}
+@media (max-width: 600px){
+    section .vip-products article {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+/*=================
+-Seccion Footer.
+======================*/
+footer {
+    height: 120px;
+    background-color: red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 40px;
+}
+footer ul {
+    padding: 0;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+footer ul li:last-child {
+    border: none;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+    
+
+
+
+
+

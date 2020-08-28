@@ -1,0 +1,29 @@
+/* foto */
+.left {
+    /*background-color: aqua;*/
+}
+img {
+    float: right;
+    width: 70%;
+}
+.accesos {
+    list-style-type: none;
+    position: relative;
+    top: 200px;
+    
+}
+.iconos {
+    position: relative;
+    top: 200px;
+}
+h1 {
+    position: relative;
+    top: 300px;
+}
+.twist {
+    background-color: azure;
+    position: relative;
+    font-size: 25px;
+    top: 400px;
+    opacity: 0.5;
+}

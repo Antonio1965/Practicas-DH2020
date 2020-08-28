@@ -1,0 +1,54 @@
+.ppal {
+    width: 100%;
+    max-width: 1260px;
+    background-color: azure;
+    box-sizing: border-box;
+}
+.home {
+    background-color:bisque;
+    width: 99%;
+    text-align: right;
+    padding: 20px 10px;
+    position: relative;
+    top: -160px;
+    opacity: 0.5;    
+}
+li {
+    display: inline;
+}
+.iconos {
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    padding: 10px 5px;
+    width: 99%;
+    top: -160px;
+}
+i {
+    padding-left: 3px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    font-size: 70px;
+    position: relative;
+    
+
+}
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -10px;
+}
+h2 {
+    
+    font-size: 20px;
+}
+.contacto {
+    font-size: 20px;
+    top: 50px;
+}
+li {
+    list-style-type: decimal-leading-zero;
+    
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+<body>
+  <%- include('./partials/header') %>
+  
+  <div class="container col-5">
+    <h1 class="mb-5">Quiero ser un cuarentenial</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+
+
+
+      <div class="form-group">
+        <label for="nombre">Nombre
+          <input type="text" name="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+        </label>
+        <small id="errNombre" class="text-danger"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellido
+          <input type="text" name="apellido" class="form-control" id="apellido" aria-describedby="emailHelp">
+        </label>
+        <small id="errApellido" class="text-danger"></small>
+      </div>
+        <div class="form-group">
+          <label for="email">Email
+            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+          </label>
+          <small id="errEmail" class="text-danger"></small>
+        </div>
+        <div class="form-group d-none">
+          <label for="exampleFormControlFile1">Subí tu avatar</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1" name="avatar">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña
+            <input type="password" name="password" class="form-control" id="password">
+            <span id="eye"></span>
+          </label>
+          <small id="errPassword" class="text-danger"></small>
+        </div>
+        <div class="form-group">
+          <label for="repassword">Repetir contraseña
+            <input type="password" name="repassword" class="form-control" id="repassword">
+          </label>
+          <small id="errRepassword" class="text-danger"></small>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Confirmar</button>
+    </form>
+  </div>
+
+  <%- include('./partials/scripts') %>
+</body>
+</html>

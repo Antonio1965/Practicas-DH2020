@@ -1,0 +1,14 @@
+header {
+    background-color: var(--amarillo-ml);
+}
+
+header ul {
+    display: flex;
+    border-radius: var(--radioDeBorde);
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a {
+    text-decoration: none;
+}

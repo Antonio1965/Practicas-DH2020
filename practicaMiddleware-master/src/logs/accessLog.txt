@@ -1,0 +1,21 @@
+
+
+
+Nuevo acceso: /
+Nuevo acceso: /register
+Nuevo acceso: /register
+Nuevo acceso: /welcome
+Nuevo acceso: /register
+Nuevo acceso: /
+Nuevo acceso: /img/favicon/favicon-32x32.png
+Nuevo acceso: /img/favicon/favicon-16x16.png
+Nuevo acceso: /img/favicon/favicon-96x96.png
+Nuevo acceso: /img/favicon/android-icon-192x192.png
+Nuevo acceso: /register
+Nuevo acceso: /login
+Nuevo acceso: /register
+Nuevo acceso: /register
+Nuevo acceso: /welcome
+Nuevo acceso: /login
+Nuevo acceso: /login
+Nuevo acceso: /register
